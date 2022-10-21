@@ -1,0 +1,3 @@
+[submodule "ext/slackmojis-dl"]
+	path = ext/slackmojis-dl
+	url = https://github.com/ethanfann/slackmojis-dl.git
