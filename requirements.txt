@@ -1,6 +1,10 @@
+-f https://download.pytorch.org/whl/torch_stable.html
+
 diffusers==0.4.1
+datasets
 accelerate
-torchvision
+torchvision>=0.13.1+cu113
+torch==1.12.1+cu113
 transformers>=4.21.0
 ftfy
 tensorboard
