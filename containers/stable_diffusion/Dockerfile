@@ -60,4 +60,3 @@ RUN pip3 install setuptools==59.5.0
 # USER ${USERNAME}
 
 SHELL ["/bin/bash", "-c"]
-
