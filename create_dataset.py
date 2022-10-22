@@ -42,7 +42,6 @@ def convert_to_hf_format(img_paths, tgt_dir):
             try:
                 img = Image.open(img_path).convert("RGB")
                 img.save(tgt_dir / f"{img_path.stem}.png")
-                img_path.unlink()
             except:
                 print(f"\nFailed to open image {str(img_path)}")
 
