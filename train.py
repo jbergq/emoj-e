@@ -6,6 +6,7 @@ import random
 from pathlib import Path
 from typing import Iterable, Optional
 from PIL import ImageFile
+
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 import numpy as np
