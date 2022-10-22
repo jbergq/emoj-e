@@ -1,3 +1,6 @@
 [submodule "ext/slackmojis-dl"]
 	path = ext/slackmojis-dl
 	url = https://github.com/ethanfann/slackmojis-dl.git
+[submodule "ext/BLIP"]
+	path = ext/BLIP
+	url = https://github.com/salesforce/BLIP.git
