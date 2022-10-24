@@ -1,4 +1,4 @@
-# stable-confusion
+# Emoj-E
 
 Stable diffusion fine-tuned to generate Slack emojis.
 
