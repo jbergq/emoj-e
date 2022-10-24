@@ -2,3 +2,4 @@ datasets/**
 !datasets/.gitkeep
 output/
 experiments/
+.env
