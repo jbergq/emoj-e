@@ -5,7 +5,7 @@ import torch
 
 from diffusers import StableDiffusionPipeline
 
-prompt = "parrot with mohawk"
+prompt = "a squirrel writing software by his computer"
 num_samples = 10
 num_inference_steps = 50
 use_finetuned = True
@@ -16,7 +16,9 @@ prompt_dir = output_dir / prompt
 prompt_dir.mkdir(exist_ok=True)
 
 if use_finetuned:
-    kwargs = {"pretrained_model_name_or_path": "experiments/sd-slackmojis-model-fname"}
+    kwargs = {
+        "pretrained_model_name_or_path": "experiments/sd-slackmojis-captions-model"
+    }
 else:
     kwargs = {
         "pretrained_model_name_or_path": "CompVis/stable-diffusion-v1-4",
